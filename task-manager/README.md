@@ -3,7 +3,7 @@
 ## Wireframes
 
 ### Home And About Page
-![Home And About Page](Home&About_wireframe.png)
+![Home And About Page](images/Home&About_wireframe.png)
 
 ## Questions
 
