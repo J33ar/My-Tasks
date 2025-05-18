@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+header, footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.task-input {
+  padding: 20px;
+  text-align: center;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 200px;
+}
+
+.task-input button {
+  padding: 10px 20px;
+}
+
+.task-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.task-list table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.personal-info, .contact-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form form input, .contact-form form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-form form button{
+  width: 20%;
+  margin: 10px 0;
+  padding: 10px;
+}
